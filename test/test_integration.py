@@ -9,11 +9,11 @@ def mock_input(monkeypatch):
 class TestStack():
 
     def setup_method(self):
-        self.stack = [4, 5, 8, 6]
+        self.stack = [4]
         self.interpreter = Interpreter(self.stack)
 
     def test_processinput(self, mock_input):
         self.interpreter.processinput()
-        assert self.interpreter.result == [4, 5, 8, 6, 4]
+        assert self.interpreter.result == [4, 4]
 
 
