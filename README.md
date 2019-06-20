@@ -14,8 +14,6 @@ result to the top of the stack. If division results in a non-integer, round down
 <li><code>SWAP</code> - swap the top two elements of the stack</li>
 <li><code>DUP</code> - duplicate the top element of the stack</li>
 </ul>
-<p>Write a python program which works as a fifth interpreter. Each line of input to the program should
-represent a single fifth command. Output the result of each command to the terminal. Handle errors sensibly.</p>
 <p>Example:</p>
 <pre><code>stack is []
 PUSH 3
