@@ -81,6 +81,9 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# Custom
+
+
 # PyBuilder
 target/
 
@@ -105,10 +108,11 @@ celerybeat-schedule
 .venv
 env/
 venv/
+virt/
 ENV/
 env.bak/
 venv.bak/
-virt/
+Scripts/
 
 # Spyder project settings
 .spyderproject
@@ -125,3 +129,11 @@ virt/
 .dmypy.json
 dmypy.json
 
+# misc
+app/open_postcode_geo.csv
+
+# Elastic Beanstalk Files
+#.elasticbeanstalk/*
+#!.elasticbeanstalk/*.cfg.yml
+#!.elasticbeanstalk/*.global.yml
+.env
